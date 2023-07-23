@@ -1,0 +1,160 @@
+.header{
+    text-align: center;
+    padding: 5px;
+    
+    background-color:skyblue;
+    /*backdrop-filter: blur(30px);*/
+}
+
+html,body{
+   
+    min-height:100vh;
+    background-image: url("bus interior--2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+ul{
+    list-style-type: none;
+    margin:0;
+    padding: 3px;
+    overflow:hidden;
+    background-color: transparent;
+    backdrop-filter: blur(50px);
+}
+li{
+    display:inline;
+    float:left;
+    border-right:2px solid skyblue;
+}
+li:last-child{
+    border-right: none;
+}
+li a{
+    display: block;
+    color:white;
+    text-align:center;
+    padding: 0px 20px;
+    text-decoration: none;
+}
+li a:hover:not(.active){
+    background-color: grey;
+}
+.active {
+    background-color: #04AA6D;
+  }
+  
+  form{
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    background-color: transparent;
+    color:white;
+    margin:auto;
+    /*padding:25px;*/
+    border: 2px solid rgba(255,255,255,.2);
+    border-radius: 10px;
+    padding: 25px 35px;
+    backdrop-filter: blur(30px);
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+}
+   form h1{
+    font-size:36px;
+    text-align:center;
+
+}
+form .input-box{
+    position: relative;
+    width:100%;
+    height:50px;
+    
+    margin: 30px 0;
+}
+.input-box input{
+    width:100%;
+    height:100%;
+    background:transparent;
+    border:none;
+    outline:none;
+    border: 2px solid rgba(255,255,255,.2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: white;
+    
+
+}
+.input-box input::placeholder{
+    color:white;
+}
+.input-box i {
+    position: absolute;
+    right: 20px;
+    top: 30px;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+.form .remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5;
+    margin: -15px -0 15px;
+}
+.remember-forgot label input{
+    accent-color: #fff; 
+    margin: 3px;
+
+}
+.remember-forgot a{
+    color: #fff;
+    text-decoration:none;
+
+}
+.remember-forgot a:hover{
+    text-decoration: underline;
+
+}
+.form .btn{
+    width: 100%;
+    height: 45px;
+    background: white;
+    border:none;
+    outline:none;
+    border-radius:40px;
+    box-shadow: 0 0 10px rgba(0,0,0,1);
+    cursor: pointer;
+    font-size: 16px;
+    color:black;
+    font-weight: 600;
+}
+.font .register-link{
+    font-size: 14.5px;
+    text-align: center;
+    margin-top: 20px;
+    margin:20px 0 15px;
+
+}
+.register-link p a{
+    color:white;
+    text-decoration: none;
+    font-weight:600;
+
+}
+.register-link p a:hover {
+
+    text-decoration:underline;
+
+}
+
+.footer{
+    text-align: center;
+    padding: auto;
+    
+    background-color:skyblue;
+}
+.footer p a{
+    text-decoration: none;
+}
+.footer p a:hover{
+    text-decoration: underline;
+}
